@@ -1,0 +1,124 @@
+*{
+	padding:0;
+	margin:0;
+}
+#poker{
+	width:100%;
+	height:100%;
+}
+.tabletop{
+	width:100%;
+	height:640px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size: cover;
+	overflow: hidden;
+	background-image:url("resources/1.jpg");
+}
+.table{
+	width:1032px;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.poker{
+	width:135px;
+	height:180px;
+	box-sizing:border-box;
+	position: absolute;
+	top:200px;
+	left:300px;
+	opacity:0;
+	background-size: 135px 180px;
+	z-index: 12345;
+}
+
+.move-to-right{
+	width:142px;
+	height:35px;
+	border-radius: 80px;
+	position: absolute;
+	left:1200px;
+	top:200px;
+	background: #150063;
+	z-index: 99999999;
+	cursor: pointer;
+}
+.move-to-left{
+	width:142px;
+	height:35px;
+	border-radius: 80px;
+	position: absolute;
+	left:1200px;
+	top:250px;
+	background:  #150063;
+	z-index: 99999999;
+	cursor: pointer;
+
+}
+/*遮罩开始*/
+.lefttabs{
+	width:326px;
+	height:664px;
+
+}
+.chongxinfapai{
+	width:200px;
+	height:50px;
+	background:#1A9F9F;;
+	position: absolute;
+	top:100px;
+	left:0;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+.chongxinfapai:hover{
+	background: #000;
+	color:#A1FFFF;
+}
+.shengyule{
+	width:200px;
+	height:50px;
+	background:#1A9F9F;;
+	position: absolute;
+	top:200px;
+	left:0;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+.shengyule:hover{
+	background: #000;
+	color:#A1FFFF;
+}
+.gameover{
+	width:200px;
+	height:170px;
+	background: #8D856C;
+	box-shadow:0px 0px 14px 1px blue;
+	position: absolute;
+	left:50%;
+	margin-left: -130px;
+	bottom:200px;
+	z-index: 1234566789;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	display: none;
+}
+.queding{
+	width:70px;
+	height:30px;
+	margin-top: 30px;
+	margin-left: 65px;
+	border:1px solid #ccc;
+	cursor: pointer;
+}
